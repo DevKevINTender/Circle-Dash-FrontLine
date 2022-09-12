@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Konstantin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Konstantin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Circle Dash FrontLine.542372377.00" t="ExcludeRecursive" />
+    <e p="E:\0_UnityProjects\Circle Dash FrontLine" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="BoxGeneratorCnt.cs" t="Include" />
+          <e p="CircleCom.cs" t="Include" />
+          <e p="DashCnt.cs" t="Include" />
+          <e p="DefaultBoxCom.cs" t="Include" />
+          <e p="DestroyerCom.cs" t="Include" />
+          <e p="PointBoxCom.cs" t="Include" />
+          <e p="SessionCore.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Circle Dash FrontLine.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
