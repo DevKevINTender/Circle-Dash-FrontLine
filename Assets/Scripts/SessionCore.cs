@@ -10,7 +10,7 @@ namespace DefaultNamespace
         public delegate void LossDel();
         
         public BoxGeneratorCnt boxGeneratorCnt;
-        public CircleCom circleObj;
+        public CircleCom3D circleObj;
 
         public Text scoreText;
         public int score;

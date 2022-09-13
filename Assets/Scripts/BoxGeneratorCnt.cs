@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class BoxGeneratorCnt : MonoBehaviour
 {
-    public DefaultBoxCom defaultBoxPb;
-    public PointBoxCom pointBoxPb;
+    public DefaultBoxCom3D defaultBoxPb;
+    public PointBoxCom3D pointBoxPb;
+
     public float leftMax, rightMax;
     public float spawnRate;
+
     public Coroutine curentDelay;
 
     public int pointEveryBox;
@@ -25,15 +27,15 @@ public class BoxGeneratorCnt : MonoBehaviour
         Vector3 spawnPos = new Vector2(Random.Range(leftMax,rightMax),transform.position.y);
         Vector3 targetPos = new Vector2(Random.Range(leftMax,rightMax),0);
 
-        DefaultBoxCom newBox;
+        DefaultBoxCom3D newBox;
         if (currentBox != pointEveryBox)
         {
-            newBox = Instantiate(defaultBoxPb,spawnPos, Quaternion.identity);
+            newBox = Instantiate(defaultBoxPb, spawnPos, Quaternion.identity);
             currentBox++;
         }
         else
         {
-            newBox = Instantiate(pointBoxPb,spawnPos, Quaternion.identity);
+            newBox = Instantiate(pointBoxPb, spawnPos, Quaternion.identity);
             currentBox = 0;
         }
         

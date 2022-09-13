@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class DashCnt : MonoBehaviour
 {
-    private CircleCom circleComObj;
+    private CircleCom3D circleComObj;
     void Start()
     {
-        circleComObj = FindObjectOfType<CircleCom>();
+        circleComObj = FindObjectOfType<CircleCom3D>();
     }
     
     public void Dash()
